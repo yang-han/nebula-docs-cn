@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -15,14 +15,13 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v1
         with:
-          python-version: '3.7'
+          python-version: '3.8'
           architecture: 'x64'
-          
+
       - name: apt install
         run: |
           sudo apt update -y
           sudo apt install -y $(cat pkglist.txt)
-          
       - name: Install dependencies
         run: |
           pip install --upgrade pip
