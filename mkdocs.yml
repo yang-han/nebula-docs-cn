@@ -107,10 +107,6 @@ nav:
 
   - 本书更新版本: git-version.md
 
-  - 前言: 
-      - 图: 0.foreground/0-graph.md
-      - 图数据库: 0.foreground/1-graph-database.md
-
   - 简介:
       - 图: 1.introduction/0-0-graph.md
       - 图数据库: 1.introduction/0-1-graph-database.md
