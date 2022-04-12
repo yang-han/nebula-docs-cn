@@ -11,7 +11,18 @@ theme:
   favicon: 'assets/images/favicon.ico'
   # Change color in `stylesheets > extra.css`
   palette:
-    primary: 'deep purple'
+    - scheme: default
+      primary: lime
+      accent: green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: amber
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   features:
     - navigation.top
     - header.autohide
