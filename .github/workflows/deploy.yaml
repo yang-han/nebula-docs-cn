@@ -39,7 +39,6 @@ jobs:
       - name: mk and Compress
         run: |
            mkdocs build
-           mike deploy book -p --rebase
            ls -altr
            tar -czf book.tar.gz site/pdf/NebulaGraph-book.pdf
            
