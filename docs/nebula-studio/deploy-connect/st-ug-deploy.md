@@ -6,7 +6,7 @@
 
 在部署 Docker 版 Studio 之前，您需要确认以下信息：
 
-- Nebula Graph 服务已经部署并启动。详细信息，参考[《Nebula Graph 用户手册》](https://docs.nebula-graph.io/manual-EN/3.build-develop-and-administration/2.install/1.install-with-rpm-deb/ "点击前往 Nebula Graph 用户手册")。
+- Nebula Graph 服务已经部署并启动。详细信息，参考[《Nebula Graph 用户手册》](https://docs.nebula-graph.com.cn/1.2.1/manual-CN/3.build-develop-and-administration/2.install/1.install-with-rpm-deb/ "点击前往 Nebula Graph 用户手册")。
   > **说明**：您可以使用多种方式部署并启动 Nebula Graph 服务。如果您刚开始使用 Nebula Graph，建议您使用 Docker Compose 部署 Nebula Graph。详细信息参考 [使用 Docker Compose 部署 Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/master/README_zh-CN.md "点击前往 GitHub 网站")。
 
 - 在即将运行 Docker 版 Studio 的机器上安装并启动 Docker Compose。详细信息参考 [Docker Compose 文档](https://docs.docker.com/compose/install/ "点击前往 Docker 文档中心")。
